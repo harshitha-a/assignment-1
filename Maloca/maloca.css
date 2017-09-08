@@ -1,0 +1,309 @@
+body{
+	color: white;
+}
+
+
+.top-left {
+	background-color: #292929;	
+}
+
+.button {
+	margin-top: 60px;
+	background-color: #e89e00;
+	padding: 5px 15px;
+	border: none;
+}
+
+.h4 {
+	margin-top: 15px;
+}
+
+.logo {
+	margin: auto;
+	margin-top: 130px;
+}
+
+.hr {
+	width: 12%;
+	border-top: 1px solid grey;
+}
+
+.h1 {
+	margin-top: 30px;
+}
+
+.icons {
+	margin-top: 140px;
+	margin-bottom: 48px;
+}
+.icons a {
+	font-size: 30px;
+	color: white;
+	margin: 0px 15px;
+}
+
+.icons a:hover {
+	color: #e89e00;
+}
+
+.top-right {
+	padding: 0px;
+
+}
+
+.nav-background {
+	background-color: transparent;
+	border: none;
+	margin-bottom: 5px;
+	position: absolute;
+	top: 5%;
+	z-index: 10;
+}
+
+.navbar-ul {
+	margin-left: 35px;
+}
+
+.navbar-default .navbar-nav li a {
+	color: white;
+}
+
+.navbar-default .navbar-nav .active a {
+	background-color: transparent;
+	color: white;
+	border-bottom: 1px solid white;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+	background-color: transparent;
+	color: white;
+}
+
+.navbar-default .navbar-nav a:hover:not(.active) {
+	color: white;
+	border-bottom: 1px solid white;
+}
+
+.controls {
+	width: 0%;
+	top: 45%;
+}
+
+[class*="button-"] {
+	background-color: #e89e00;
+	padding: 25px 15px;
+	border: none;
+}
+
+.button-arrow-left {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.button-arrow-right {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.bold {
+	color: #292929;
+	margin-top: 70px;
+}
+
+.para {
+	color: #999999;
+}
+
+.about {
+	margin-top: 40px;
+}
+
+[class*="about-"] {
+	margin-top: 30px;
+}
+
+.about-image {
+	padding-right: 0px;
+	padding-left: 0px;
+	height: 320px;
+}
+
+.about-text {
+	background-color: #e89e00;
+	padding: 70px 50px;
+	text-align: left;
+}
+
+.about-text-head {
+	color: black;
+}
+
+.location-bottom {
+	margin-bottom: 40px;
+}
+
+.travel-image{
+	position: relative;
+}
+
+.travel-button{
+	position: absolute;
+	bottom: 11%;
+	left: 18%;
+	border-radius: 0px;
+	border: none;
+	background-color: #292929;
+	padding: 10px 30px;
+	color: white;
+}
+
+.thumb {
+	border: none;
+}
+
+.thumbnail img {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-bottom: 30px;
+}
+
+[class*="thumb-"] {
+	text-align: left;
+	font-size: 12px;
+
+}
+
+.thumb-1 {
+	background-color: #292929;
+	padding: 65.5px 30px;
+}
+
+.thumb-2 {
+	background-color: #9dca2d; 
+	padding: 48.5px 30px;
+}
+
+.thumb-3 {
+	background-color: rgba(127,127,127,0.2);
+	padding: 35.5px 30px;
+	color: grey;
+}
+
+.thumb-4 {
+	background-color: #e89e00;
+	padding: 57.5px 30px;
+}
+
+.floor-plan2 {
+	padding: 10px 30px;
+	background-color:  #292929; 
+	color: white;
+	border-radius: 0px;
+	border: none;
+	margin-bottom: 40px;
+}
+
+.floor-plan3 {
+	background-color: rgba(127,127,127,0.2);
+	padding: 10px 30px;
+	border-radius: 0px;
+	border: none;
+	margin-bottom: 40px;
+}
+
+.floor-thumb {
+	padding: 40px 10px;
+	text-align: center;
+	color: #292929;
+
+}
+
+.floor-thumb h4 {
+	text-align: center;
+}
+
+.floor-thumb-text {
+	color: #e89e00;
+}
+
+.active-thumb {
+	background-color: rgba(127,127,127,0.3);
+	position: relative;
+}
+
+.active-search {
+	position: absolute;
+	top: 40%;
+	left: 45%;
+}
+
+.h3-color {
+	color: #292929;
+}
+
+.specs-button {
+	margin-top: 20px;
+}
+
+.specs-button-active {
+	background-color: #292929;
+	color: white;
+	padding: 6px 12px;
+}
+
+.specs-main {
+	padding: 0px;
+	margin-top: 40px;
+	border-radius: 15px;
+	margin-bottom: 50px;
+}
+
+.specs {
+	padding: 0px;
+	color: #292929;
+	text-align: left;
+}
+
+.specs-content {
+	padding: 100px 40px;
+	text-align: left;
+}
+
+.contact-us-image{
+	padding: 0px;
+	position: relative;
+}
+
+.contact-us-div{
+	position: absolute;
+	top: 35%;
+	left: 25%;
+	text-align: left;
+	width: 50%;
+    padding: 30px;
+	background-color: rgba(0,0,0,0.5);
+
+}
+
+.contact-us-map {
+	padding: 0px;
+	position: initial;
+}
+
+.contact-us-left {
+	color: #292929;
+	background-color: rgba(127,127,127,0.1);
+    padding: 170px 150px;
+}
+.contact-para {
+	font-size: 9px;
+}
+
+.contact-us-right {
+	padding: 30px 80px;
+}
+
+.project-address {
+	margin-top: 30px;
+}
+
